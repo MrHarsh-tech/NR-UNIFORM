@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #e0e0e0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-button {
+  background: #1e1e2f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.services {
+  padding: 40px 20px;
+  text-align: center;
+  background-color:#ffccb9d2;
+}
+
+.service-item {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+.business-name h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 2px;
+}
+.trusted-clients {
+  padding: 40px 20px;
+  background: #eff5ff;
+  text-align: center;
+}
+
+.trusted-clients h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.client {
+  background: #f1e2f3;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.hero {
+  position: relative;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero .overlay {
+  background-color: rgba(1, 7, 101, 0.6);
+  padding: 60px 20px;
+}
+
+.features {
+  padding: 40px 20px;
+  background: #ebc8ff;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.cta-strip {
+  background: #e60000;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
